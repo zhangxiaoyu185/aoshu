@@ -1,0 +1,63 @@
+<!-- errDesc -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="format-detection" content="email=no" />
+		<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width;" />
+		<title>错题详情</title>
+
+		<link rel="stylesheet" type="text/css" href="../../css/tool/comm.css" />
+		<link rel="stylesheet" type="text/css" href="../../css/classroom/sutraTest.css" />
+		
+		<script type="text/javascript" src="../../plugins/zepto.js"></script>
+		<script type='application/javascript' src='../../plugins/fastclick.js'></script>
+  		<script type="text/javascript" src="../../js/tool/common.js"></script>
+  		<script type="text/javascript" src="../../js/classroom/errDesc.js"></script>
+
+  		<script type="text/javascript" src="../../js/classroom/answerDiv.js"></script>
+  		
+  		<link rel="stylesheet" type="text/css" href="../../plugins/layer_phone/need/layer.css" />
+  		<script type="text/javascript" src="../../plugins/layer_phone/layer.js"></script>
+	</head>
+	<body>
+		
+		<div class="errDesc_title"></div>
+		
+		<div class="sutraTest_back btn" onclick="backPageErrDesc()"></div>
+
+		<div class="div_problem">
+			<div class="sutraTest_problem_flag"></div>
+			<div id="sutraTest_problem_bg" class="sutraTest_problem_bg"></div>
+			<!-- <div class="sutraTest_rate"></div> -->
+		</div>
+		
+		<div class="div_answer">
+			<div class="sutraTest_answer_flag"></div>
+			<div id="sutraTest_answer_bg" class="sutraTest_answer_bg"></div>
+			<div id="sutraTest_submit_btn" class="sutraTest_submit_btn" onclick="sutraTestSubmit()"></div>
+		</div>
+
+		<div id="sutraTest_bottom_bg" class="sutraTest_bottom_bg">
+			<div class="sutraTest_bottom_answer">
+				<div class="number_btn_bg btn" onclick="answer('1')">1</div>
+				<div class="number_btn_bg btn" onclick="answer('2')">2</div>
+				<div class="number_btn_bg btn" onclick="answer('3')">3</div>
+				<div class="number_btn_bg btn" onclick="answer('4')">4</div>
+				<div class="number_btn_bg btn" onclick="answer('5')">5</div>
+				<div class="number_btn_bg btn" onclick="answer('6')">6</div>
+				<div class="number_btn_bg btn" onclick="answer('7')">7</div>
+				<div class="number_btn_bg btn" onclick="answer('8')">8</div>
+				<div class="number_btn_bg btn" onclick="answer('9')">9</div>
+				<div class="number_btn_bg btn" onclick="answer('0')">0</div>
+				<div class="point_btn_bg btn" onclick="answer('.')">.</div>
+				<div class="letter_btn_bg btn" onclick="answer('A')">A</div>
+				<div class="letter_btn_bg btn" onclick="answer('B')">B</div>
+				<div class="letter_btn_bg btn" onclick="answer('C')">C</div>
+				<div class="letter_btn_bg btn" onclick="answer('D')">D</div>
+				<div class="letter_btn_bg btn" onclick="claer()"><-</div>
+			</div>
+		</div>	
+	</body>
+</html>

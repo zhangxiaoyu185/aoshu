@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="format-detection" content="email=no" />
+		<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width;" />
+		<title>登录</title>
+
+		<link rel="stylesheet" type="text/css" href="../../css/tool/comm.css" />
+		<link rel="stylesheet" type="text/css" href="../../css/login/login.css" />
+		
+
+		<script type="text/javascript" src="../../plugins/zepto.js"></script>
+  		<script type="text/javascript" src="../../js/tool/common.js"></script>
+  		<script type="text/javascript" src="../../js/tool/md5.js"></script>
+		<script type="text/javascript" src="../../js/login/login.js"></script>
+
+	</head>
+	<body>
+		<div class="login_title"></div>
+		<div class="login_bg div_center">
+			<div class="login_border">
+				<div class="register_item" style="margin-top: 170px;">
+					<div class="login_name"></div>
+					<input id="login_name" type="text" class="login_input" />
+				</div>
+				
+				<div class="register_item" style="margin-top: 246px;">
+					<div class="login_password"></div>
+					<input id="login_password" type="password" class="login_input" />
+					<a href="register.html" class="comm_a"><div class="go_login"></div></a>
+				</div>
+
+				<div id="login_flag" class="login_nocheck" onclick="checked(this,'login_nocheck','login_checked')">保存帐号</div>
+				
+				<div class="login_sure btn" onclick="login_sure()"></div>
+			</div>
+		</div>
+	</body>
+	
+</html>

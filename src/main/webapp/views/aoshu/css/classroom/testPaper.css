@@ -1,0 +1,416 @@
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	background-color: #55aaa2;
+}
+
+.testPaper_bg {
+	width: 100%;
+	height: 100%;
+}
+
+.testPaper_border {
+	width: 100%;
+	height: 768px;
+	background: url("../../images/classroom/testPaper_border.png") no-repeat;
+	-webkit-background-size: 100% 768px;
+	background-size: 100% 768px;
+}
+
+.testPaper_top {
+	width: 100%;
+	height: 81px;
+}
+
+.testPaper_time {
+	width: 202px;
+	height: 69px;
+	background: url("../../images/classroom/testPaper_time.png") no-repeat;
+	position: absolute;
+	margin-left: 91px;
+	margin-top: 20px;
+	color: #fdfefd;
+	font-size: 20px;
+	line-height: 79px;
+	padding-left: 79px;
+}
+
+.sutraTest_analyze {
+	width: 191px;
+	height: 67px;
+	background: url("../../images/classroom/subjectanAlyze.png") no-repeat;
+	position: absolute;
+	margin-left: 91px;
+	margin-top: 20px;
+}
+
+.testPaper_score {
+	width: 73px;
+	height: 67px;
+	background: url("../../images/classroom/testPaper_score.png") no-repeat;
+	float: right;
+	margin-right: 117px;
+	margin-top: -58px;
+	color: #fdfefd;
+	font-size: 23px;
+	line-height: 70px;
+	padding-left: 88px;
+}
+
+.videoAlyze {
+	width: 191px;
+	height: 67px;
+	background: url("../../images/classroom/videoAlyze.png") no-repeat;
+	float: right;
+	margin-right: 117px;
+	margin-top: -58px;
+	color: #fdfefd;
+	font-size: 23px;
+	line-height: 70px;
+	padding-left: 88px;
+}
+
+.testPaper_title {
+	/* width: 77px; */
+	/* width: 522px; */
+	height: 81px;
+	/* background: url("../../images/classroom/testPaper_title.png") no-repeat; */
+	margin: 0px auto;
+	color: #a9d4d0;
+	font-size: 42px;
+	/* padding-left: 255px; */
+	line-height: 87px;
+	text-align: center;
+}
+
+.content_testPaper {
+	width: 100%;
+	height: 480px;
+	margin-top: 11px;
+	overflow: auto;
+}
+
+.testPaper_bottom_btn {
+	width: 100%;
+	height: 70px;
+	font-family: "楷体","楷体_GB2312";
+	font-weight: bold;
+	margin-top: 8px;
+}
+
+.testPaper_btn_left {
+	width: 168px;
+	height: 70px;
+	background: url("../../images/classroom/testPaper_btn_left.png") no-repeat;
+	line-height: 70px;
+	text-align: center;
+	font-size: 26px;
+	color: #664a22;
+	margin-left: 85px;
+	float: left;
+}
+
+.testPaper_btn_left_dis {
+	width: 168px;
+	height: 65px;
+	background: url("../../images/classroom/testPaper_btn_left_dis.png") no-repeat;
+	line-height: 65px;
+	text-align: center;
+	font-size: 26px;
+	color: #808281;
+	margin-left: 85px;
+	float: left;
+}
+
+.testPaper_btn_right {
+	width: 139px;
+	height: 70px;
+	background: url("../../images/classroom/testPaper_btn_right.png") no-repeat;
+	line-height: 70px;
+	text-align: center;
+	font-size: 24px;
+	color: #434343;
+	margin-right: 125px;
+	float: right;
+}
+
+.testPaper_bottom_answer {
+	width: 100%;
+	height: 70px;
+	font-family: "楷体","楷体_GB2312";
+	font-weight: bold;
+	margin-top: 14px;
+}
+
+.testPaper_bottom_answer .number_btn_bg {
+	width: 64px;
+	height: 62px;
+	background: url("../../images/classroom/number_btn_bg.png") no-repeat;
+	float: left;
+	font-size: 38px;
+	line-height: 62px;
+	text-align: center;
+}
+
+.testPaper_bottom_answer .point_btn_bg {
+	width: 64px;
+	height: 62px;
+	background: url("../../images/classroom/point_btn_bg.png") no-repeat;
+	float: left;
+	font-size: 38px;
+	line-height: 62px;
+	text-align: center;
+}
+
+.testPaper_bottom_answer .letter_btn_bg {
+	width: 64px;
+	height: 62px;
+	background: url("../../images/classroom/letter_btn_bg.png") no-repeat;
+	float: left;
+	font-size: 38px;
+	line-height: 62px;
+	text-align: center;
+}
+
+.testPaper_back {
+	width: 82px;
+	height: 80px;
+	background: url("../../images/classroom/testPaper_back.png") no-repeat;
+	position: fixed;
+	right: 10px;
+	top: 10px;
+}
+
+.handIn_bg {
+	width: 723px;
+	height: 525px;
+	background: url("../../images/classroom/handIn_bg.png") no-repeat;
+}
+
+.handIn_btn {
+	width: 350px;
+	height: 63px;
+	margin: 0px auto;
+	top: 425px;
+	position: relative;
+}
+
+.handIn_continue {
+	width: 152px;
+	height: 63px;
+	background: url("../../images/classroom/handIn_continue.png") no-repeat;
+	float: right;
+}
+
+.handIn_sure {
+	width: 152px;
+	height: 63px;
+	background: url("../../images/classroom/handIn_sure.png") no-repeat;
+	float: left;
+	margin-left: 18px;
+}
+
+.result_bg {
+	width: 764px;
+	height: 522px;
+	background: url("../../images/classroom/result_bg.png") no-repeat;
+}
+
+.result_back {
+	width: 117px;
+	height: 122px;
+	background: url("../../images/classroom/result_back.png") no-repeat;
+	float: right;
+	margin-top: -17px;
+}
+
+.result_title {
+	width: 347px;
+	height: 95px;
+	background: url("../../images/classroom/result_title.png") no-repeat;
+	margin: 0px auto;
+	top: 25px;
+	position: relative;
+}
+
+.result_item {
+	width: 487px;
+	height: 74px;
+	margin: 25px auto;
+
+}
+
+.result_item .result_score {
+	width: 147px;
+	height: 74px;
+	background: url("../../images/classroom/result_score.png") no-repeat;
+	float: left;
+}
+
+.result_item .result_time {
+	width: 147px;
+	height: 74px;
+	background: url("../../images/classroom/result_time.png") no-repeat;
+	float: left;
+	margin-left: 15px;
+}
+
+.result_item .result_100_flag {
+	width: 175px;
+	height: 41px;
+	background: url("../../images/classroom/result_100_flag.png") no-repeat;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.result_item .result_content_score {
+	width: 126px;
+	height: 59px;
+	background-color: #708c7d;
+	color: #000503;
+	text-align: center;
+	line-height: 59px;
+	font-weight: bold;
+	font-size: 45px;
+	float: left;
+	margin-left: 15px;
+}
+
+.result_item .result_content_time {
+	width: 219px;
+	height: 59px;
+	background-color: #708c7d;
+	color: #ffff60;
+	text-align: center;
+	line-height: 59px;
+	font-weight: bold;
+	font-size: 30px;
+	float: left;
+}
+
+.result_reform {
+	width: 177px;
+	height: 73px;
+	background: url("../../images/classroom/result_reform.png") no-repeat;
+	float: left;
+	margin-left: 20px;
+}
+
+.result_details {
+	width: 177px;
+	height: 73px;
+	background: url("../../images/classroom/result_details.png") no-repeat;
+	float: right;
+	margin-right: 20px;
+}
+
+.result_details1 {
+	width: 177px;
+	height: 73px;
+	background: url("../../images/classroom/result_details.png") no-repeat;
+	margin: 0px auto;
+}
+
+.problemClass {
+	/*margin-top: 20px;*/
+	/*font-size: 21px;*/
+	margin-left: 15px;
+}
+
+.answerClass {
+	margin-top: 20px;
+	/*font-size: 21px;*/
+	margin-left: 50px;
+}
+
+.checkAnswer {
+	margin-top: 20px;
+	font-size: 16px;
+	margin-left: 50px;
+}
+
+.pageNos {
+	width: 100%;
+	height: 40px;
+	margin-top: 1px;
+}
+
+.pageNos .selected {
+	width: 30px;
+	height: 30px;
+	border: solid 2px #838e62;
+	border-radius: 15px;
+	background-color: #c3b743;
+	color: #fb031a;
+	text-align: center;
+	line-height: 30px;
+	margin-left: 15px;
+	float: left;
+}
+
+.pageNos .noselect {
+	width: 30px;
+	height: 30px;
+	border: solid 2px #72d4cd;
+	border-radius: 15px;
+	background-color: #fff;
+	color: #000;
+	text-align: center;
+	line-height: 30px;
+	margin-left: 15px;
+	float: left;
+}
+
+.divfontChange {
+	width: 30px;
+	height: 90px;
+	float: right;
+	position: absolute;
+	top: 150px;
+	right: 20px;
+}
+
+.fontSizeChange {
+	width: 30px;
+	height: 30px;
+	border: solid 2px #72d4cd;
+	border-radius: 15px;
+	background-color: #fff;
+	color: #000;
+	text-align: center;
+	line-height: 30px;
+}
+
+.fontSizeChangeSelected {
+	width: 30px;
+	height: 30px;
+	border: solid 2px #838e62;
+	border-radius: 15px;
+	background-color: #c3b743;
+	color: #fb031a;
+	text-align: center;
+	line-height: 30px;
+}
+
+.dui {
+	width: 32px;
+	height: 32px;
+	background: url("../../images/classroom/dui.png") no-repeat;
+	-webkit-background-size: 32px 32px;
+	background-size: 32px 32px;
+	margin-left: 7px;
+}
+
+.cuo {
+	width: 32px;
+	height: 32px;
+	background: url("../../images/classroom/cuo.png") no-repeat;
+	-webkit-background-size: 32px 32px;
+	background-size: 32px 32px;
+	margin-left: 7px;
+}

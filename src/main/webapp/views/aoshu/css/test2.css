@@ -1,0 +1,106 @@
+.all_div {
+	width: 1206px;
+	margin:0px auto;
+	overflow: auto;
+}
+
+.comm_border {
+	border-top: solid 1px #999;
+	border-right: solid 1px #999;
+	border-left: solid 1px #999;
+}
+
+.top {
+	height: 39px;
+	
+	font-size: 20px;
+	color: #323232;
+	line-height: 39px;
+	text-align: center;
+
+
+}
+.middle{
+	height: 77px;
+
+}
+.middlelf{
+	width:69px;
+	height: 77px;
+	float: left;
+	line-height: 77px;
+	text-align: center;
+
+	border-right: solid 1px #999;
+}
+.middleItem{
+	width: 386px;
+	height: 77px;
+    float: left;
+    line-height: 77px;
+	text-align: center;
+	border-right: solid 1px #999;
+
+}
+.middleItem1{
+	width: 80px;
+	height: 77px;
+	float: left;
+	line-height: 77px;
+	text-align: center;
+	border-right: solid 1px #999;
+}
+.item1_top{
+	width: 386px;
+	height: 39px;
+	line-height: 39px;
+	text-align: center;
+	border-bottom: solid 1px #999;
+
+}
+.item1_bottom{
+	width: 47px;
+	height: 37px;
+	float: left;
+	line-height: 40px;
+	text-align: center;
+	border-right: solid 1px #999;
+
+}
+.item2_bottom{
+	width: 99px;
+	height: 37px;
+	float: left;
+	line-height: 40px;
+	text-align: center;
+	border-right: solid 1px #999;
+
+}
+.middleItem2{
+	width: 150px;
+	height: 77px;
+	float: left;
+	line-height: 77px;
+	text-align: center;
+	border-right: solid 1px #999;
+}
+
+.middleItem3{
+	width: 111px;
+	height: 77px;
+	float: left;
+	line-height: 77px;
+	text-align: center;
+}
+.bottom{
+	height: 40px;
+
+}
+.bottom_item1{
+	width: 69px;
+	height: 30px;
+	float: left;
+	border-right: solid 1px #999;
+	line-height: 30px;
+	text-align: center;
+}

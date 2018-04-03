@@ -1,0 +1,180 @@
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	background: #927b72;
+}
+
+
+.sutraTest_bottom_answer {
+	width: 100%;
+	height: 57px;
+	font-family: "楷体","楷体_GB2312";
+	font-weight: bold;
+	top: 19px;
+	position: relative;
+}
+
+.sutraTest_bottom_answer .number_btn_bg {
+	width: 64px;
+	height: 62px;
+	background: url("../../images/classroom/number_btn_bg.png") no-repeat;
+	float: left;
+	font-size: 38px;
+	line-height: 62px;
+	text-align: center;
+}
+
+.sutraTest_bottom_answer .point_btn_bg {
+	width: 64px;
+	height: 62px;
+	background: url("../../images/classroom/point_btn_bg.png") no-repeat;
+	float: left;
+	font-size: 38px;
+	line-height: 62px;
+	text-align: center;
+}
+
+.sutraTest_bottom_answer .letter_btn_bg {
+	width: 64px;
+	height: 62px;
+	background: url("../../images/classroom/letter_btn_bg.png") no-repeat;
+	float: left;
+	font-size: 38px;
+	line-height: 62px;
+	text-align: center;
+}
+
+.sutraTest_top {
+	width: 100%;
+	height: 110px;
+}
+
+.sutraTest_title {
+	width: 411px;
+	height: 110px;
+	background: url("../../images/classroom/sutraTest_title.png") no-repeat;
+	float: left;
+}
+
+.sutraTest_analyze {
+	width: 191px;
+	height: 67px;
+	background: url("../../images/classroom/sutraTest_analyze.png") no-repeat;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.sutraTest_back {
+	width: 74px;
+	height: 74px;
+	background: url("../../images/classroom/lecture_back.png") no-repeat;
+	position: fixed;
+	right: 20px;
+	top: 20px;
+}
+
+.div_problem {
+	width: 100%;
+	height: 300px;
+}
+
+.sutraTest_problem_flag {
+	width: 130px;
+	height: 67px;
+	background: url("../../images/classroom/sutraTest_problem_flag.png") no-repeat;
+	float: left;
+	margin-top: 95px;
+	margin-left: 10px;
+}
+
+.sutraTest_problem_bg {
+	width: 758px;
+	height: 282px;
+	background: url("../../images/classroom/sutraTest_problem_bg.png") no-repeat;
+	margin: 0px auto;
+}
+
+.sutraTest_rate {
+	width: 147px;
+	height: 116px;
+	background: url("../../images/classroom/sutraTest_rate.png") no-repeat;
+	float: right;
+	margin-top: -215px;
+	text-align: center;
+	line-height: 133px;
+	font-size: 30px;
+	color: #4e13d5;
+	font-family: "楷体","楷体_GB2312";
+	font-weight: bold;
+}
+
+.div_answer {
+	width: 100%;
+	height: 210px;
+}
+
+.sutraTest_answer_flag {
+	width: 191px;
+	height: 67px;
+	background: url("../../images/classroom/sutraTest_answer_flag.png") no-repeat;
+	float: left;
+	margin-top: 50px;
+}
+
+.sutraTest_answer_bg {
+	width: 758px;
+	height: 209px;
+	background: url("../../images/classroom/sutraTest_answer_bg.png") no-repeat;
+	margin: 0px auto;
+}
+
+.sutraTest_submit_btn {
+	width: 147px;
+	height: 173px;
+	background: url("../../images/classroom/sutraTest_submit_btn.png") no-repeat;
+	float: right;
+	margin-top: -193px;
+}
+
+.sutraTest_bottom_bg {
+	width: 100%;
+	height: 83px;
+	background: url("../../images/classroom/sutraTest_bottom_bg.png") no-repeat;
+	-webkit-background-size: 100% 83px;
+	background-size: 100% 83px;
+	position: absolute;
+	bottom: 0px;
+}
+
+
+.errDesc_title {
+	width: 454px;
+	height: 148px;
+	background: url("../../images/classroom/errDesc_title.png") no-repeat;
+	margin: 0px auto;
+	top: 12px;
+	position: relative;
+}
+
+.dui {
+	width: 32px;
+	height: 32px;
+	background: url("../../images/classroom/dui.png") no-repeat;
+	-webkit-background-size: 32px 32px;
+	background-size: 32px 32px;
+	margin-left: 7px;
+}
+
+.cuo {
+	width: 32px;
+	height: 32px;
+	background: url("../../images/classroom/cuo.png") no-repeat;
+	-webkit-background-size: 32px 32px;
+	background-size: 32px 32px;
+	margin-left: 7px;
+}

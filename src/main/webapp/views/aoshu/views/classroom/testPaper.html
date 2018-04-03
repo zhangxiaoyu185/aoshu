@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="format-detection" content="email=no" />
+		<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width;" />
+		<title>试卷</title>
+
+		<link rel="stylesheet" type="text/css" href="../../css/tool/comm.css" />
+		<link rel="stylesheet" type="text/css" href="../../css/classroom/testPaper.css" />
+		
+		<script type="text/javascript" src="../../plugins/zepto.js"></script>
+		<script type='application/javascript' src='../../plugins/fastclick.js'></script>
+  		<script type="text/javascript" src="../../js/tool/common.js"></script>
+  		<script type="text/javascript" src="../../js/classroom/testPaper.js"></script>
+
+  		<script type="text/javascript" src="../../js/classroom/answerDiv.js"></script>
+  		
+  		<link rel="stylesheet" type="text/css" href="../../plugins/layer_phone/need/layer.css" />
+  		<script type="text/javascript" src="../../plugins/layer_phone/layer.js"></script>
+	</head>
+	<body onselectstart="return false">
+		<div class="testPaper_bg">
+
+			<div class="testPaper_back btn" onclick="backPageTestPaper()"></div>
+			<div class="testPaper_border">
+				<!-- <div class="testPaper_back btn" onclick="backPage()"></div> -->
+				<div class="testPaper_top">
+					<div id="testPaper_time" class="testPaper_time"></div>
+					<div id="testPaper_title" class="testPaper_title"></div>
+					<div id="testPaper_score" class="testPaper_score">0</div>
+				</div>
+
+				<div class="content_testPaper">
+					<div id="problem" class="problemClass"></div>
+					<div id="answer" class="answerClass"></div>
+					<div id="checkAnswer" class="checkAnswer"></div>
+
+					<div class="divfontChange">
+						<div id="fontBig" class="fontSizeChange" onclick="fontBig()">大</div>
+						<div id="fontMiddle" style="margin-top: 20px;" class="fontSizeChangeSelected" onclick="fontMiddle()">中</div>
+						<div id="fontSmall" style="margin-top: 20px;" class="fontSizeChange" onclick="fontSmall()">小</div>
+					</div>
+				</div>
+
+
+				<div id="pageNos" class="pageNos">
+					<!-- <div class="selected">1</div>	
+					<div class="noselect">2</div> -->
+				</div>
+
+				<div class="testPaper_bottom_btn">
+					<div id="upPageBtn" class="testPaper_btn_left_dis btn" onclick="upPage()">上一题</div>
+					<div id="nextPageBtn" class="testPaper_btn_left btn" style="margin-left: 13px;"  onclick="nextPage()">下一题</div>
+
+					<div id="handIn" class="testPaper_btn_left btn" style="margin-left: 13px; display:none;" onclick="handIn()">交卷</div>
+					<div id="seeAnswer" class="testPaper_btn_right btn" style="margin-right: 41px; display:none;" onclick="checkAnswer()">查看答案</div>
+					<div id="resetBtn" class="testPaper_btn_right btn" style="display:none;"  onclick="resetBtn()">重做</div>
+				</div>
+
+				<div class="testPaper_bottom_answer">
+					<div class="number_btn_bg btn" onclick="answer('1')">1</div>
+					<div class="number_btn_bg btn" onclick="answer('2')">2</div>
+					<div class="number_btn_bg btn" onclick="answer('3')">3</div>
+					<div class="number_btn_bg btn" onclick="answer('4')">4</div>
+					<div class="number_btn_bg btn" onclick="answer('5')">5</div>
+					<div class="number_btn_bg btn" onclick="answer('6')">6</div>
+					<div class="number_btn_bg btn" onclick="answer('7')">7</div>
+					<div class="number_btn_bg btn" onclick="answer('8')">8</div>
+					<div class="number_btn_bg btn" onclick="answer('9')">9</div>
+					<div class="number_btn_bg btn" onclick="answer('0')">0</div>
+					<div class="point_btn_bg btn" onclick="answer('.')">.</div>
+					<div class="letter_btn_bg btn" onclick="answer('A')">A</div>
+					<div class="letter_btn_bg btn" onclick="answer('B')">B</div>
+					<div class="letter_btn_bg btn" onclick="answer('C')">C</div>
+					<div class="letter_btn_bg btn" onclick="answer('D')">D</div>
+					<div class="letter_btn_bg btn" onclick="claer()"><-</div>
+				</div>
+			</div>
+		</div>
+	</body>
+
+
+</html>

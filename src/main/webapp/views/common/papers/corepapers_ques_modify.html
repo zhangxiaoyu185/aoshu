@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>编辑试题</title>
+<link type="text/css" rel="stylesheet" href="../css/common/base-min.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../css/common/index.css" media="all" />
+<script type="text/javascript" src="../js/jquery/jquery-1.8.3.min.js?ts=new Date()"></script>
+<script type="text/javascript" src="../ckeditor/ckeditor.js?ts=new Date()"></script>
+<script type="text/javascript" src="../ckfinder/ckfinder.js?ts=new Date()"></script>
+<script type="text/javascript" src="../../js/jquery.js?ts=new Date()"></script>
+<script type="text/javascript" src="../../js/jquery-form.js?ts=new Date()"></script>
+<script type="text/javascript" src="../js/layer/layer.js?ts=new Date()"></script>
+<script type="text/javascript" src="../js/common/common.js?ts=new Date()"></script>
+<script type="text/javascript" src="../js/papers/corepapers_ques_modify.js?ts=new Date()"></script>
+</head>
+
+<body>
+		<li class="list-li">
+			<input type="button" class="buttonStyle submit" value="提交"/>
+		</li>
+		<div class="box">
+			<div class="manageBox margin-tb">
+				<table class="tb">
+					<thead class="tb-Yhead">
+						<tr class="tb-Yhead">
+							<td>已添加题目编号</td>
+							<td>已添加类别</td>
+							<td>已添加知识点</td>
+							<td>已添加难易程度</td>
+							<td>已添加年级</td>
+							<td>操作</td>
+						</tr>
+					</thead>
+					<tbody class="tb-Ybody">
+						<!-- js生成表格内容 -->
+					</tbody>
+				</table>
+				<div class="searchBox margin-tb">
+					<table><tr>
+						<span>题目编号:</span>
+						<input type="text" class="inputStyle_condition crqtsCode"/>
+						<span>所属年级:</span>
+						<select class="inputStyle_condition crqtsClass">
+				    	</select>
+				    </tr></table>
+					<div class="margin-tb">
+						<input type="button" class="searchBtn" value="查询"></input>
+						<input type="button" class="resetBtn" value="重置"></input>
+					</div>
+				</div>
+				<div class="greyBox">
+					<input type="button" class="refreshBtn addit" value="批量新增"></input>
+				</div>
+				<table class="tb">
+					<thead class="tb-head">
+						<tr>
+							<!-- js生成表格头部 -->
+						</tr>
+					</thead>
+					<tbody class="tb-body">
+						<!-- js生成表格内容 -->
+					</tbody>
+					<tfoot class="tb-foot">
+						<tr>
+							<!-- js生成表格底部 -->
+						</tr>
+					</tfoot>
+				</table>
+			</div>
+		</div>
+</body>
+</html>

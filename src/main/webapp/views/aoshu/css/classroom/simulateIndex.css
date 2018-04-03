@@ -1,0 +1,132 @@
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	background-color: #517a95;
+}
+
+.simulate_bg {
+	width: 100%;
+	height: 100%;
+	/*background: url("../../images/classroom/simulate_bg.png") no-repeat;*/
+	/*-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;*/
+}
+
+.simulate_title {
+	width: 86px;
+	height: 288px;
+	background: url("../../images/classroom/simulate_title.png") no-repeat;
+	position: fixed;
+	left: 10px;
+}
+
+.content_select {
+	width: 900px;
+	height: 533px;
+	overflow-y: auto;
+	margin: 0px auto;
+	position: relative;
+	/*top: 46px;*/
+}
+
+.content_select .simulate_checked {
+	width: 182px;
+	height: 34px;
+	background: url("../../images/classroom/simulate_checked.png") no-repeat;
+	float: left;
+	margin-left: 30px;
+	margin-top: 20px;
+	color: #fff;
+	padding-top: 210px;
+	text-align: center; 
+}
+
+.content_select .simulate_checking {
+	width: 182px;
+	height: 34px;
+	background: url("../../images/classroom/simulate_checking.png") no-repeat;
+	float: left;
+	margin-left: 30px;
+	margin-top: 20px;
+	color: #fff;
+	padding-top: 210px;
+	text-align: center;
+}
+
+.div_bottom {
+	width: 100%;
+	height: 168px;
+	background-color: #69b7c9;
+	position: fixed;
+	bottom: 0px;
+}
+
+.simulate_bottom {
+	width: 1024px;
+	height: 166px;
+	background: url("../../images/classroom/simulate_bottom.png") no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.page_btn {
+	width: 57px;
+	height: 285px;
+	position: absolute;
+	right: 0px;
+	top: 21%;
+}
+
+.page_btn .simulate_page_en {
+	width: 57px;
+	height: 106px;
+	background: url("../../images/classroom/simulate_page_en.png") no-repeat;
+	color: #b4d334;
+	font-weight: bold;
+
+	font-size: 26px;
+	word-wrap: break-word;
+	letter-spacing: 17px;
+	text-align: right;
+	padding-top: 20px;
+}
+
+.page_btn .simulate_page_dis {
+	width: 57px;
+	height: 106px;
+	background: url("../../images/classroom/simulate_page_dis.png") no-repeat;
+	color: #adbbc8;
+	font-weight: bold;
+
+	font-size: 26px;
+	word-wrap: break-word;
+	letter-spacing: 15px;
+	text-align: right;
+	padding-top: 20px;
+}
+
+.simulateIndex_back {
+	width: 74px;
+	height: 74px;
+	background: url("../../images/classroom/lecture_back.png") no-repeat;
+	position: fixed;
+	right: 10px;
+	top: 10px;
+}
+
+.gainScore {
+	margin-top: -216px;
+	text-align: left;
+	padding-left: 20px;
+	padding-top: 6px;
+}
+
+.gainTime {
+	text-align: left;
+	padding-left: 20px;
+	padding-top: 6px;
+}

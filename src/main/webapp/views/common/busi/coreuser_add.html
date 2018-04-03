@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>添加用户表</title>
+<link type="text/css" rel="stylesheet" href="../css/common/base-min.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../css/common/index.css" media="all" />
+<script type="text/javascript" src="../js/jquery/jquery-1.8.3.min.js?ts=new Date()"></script>
+<script type="text/javascript" src="../ckeditor/ckeditor.js?ts=new Date()"></script>
+<script type="text/javascript" src="../ckfinder/ckfinder.js?ts=new Date()"></script>
+<script type="text/javascript" src="../../js/jquery.js?ts=new Date()"></script>
+<script type="text/javascript" src="../../js/jquery-form.js?ts=new Date()"></script>
+<script type="text/javascript" src="../js/layer/layer.js?ts=new Date()"></script>
+<script type="text/javascript" src="../js/common/common.js?ts=new Date()"></script>
+<script type="text/javascript" src="../js/busi/coreuser_add.js?ts=new Date()"></script>
+</head>
+
+<body>
+	<div class="box">
+		<ul class="list">
+			<li class="list-li">
+				<label class="leftLi">帐户名称：</label>
+				<div class="rightLi">
+					<input type="text" class="inputStyle crusrName"/>
+					<span class="p-red"> *</span>
+				</div>
+			</li>
+			<li class="list-li">
+				<label class="leftLi">真实姓名：</label>
+				<div class="rightLi">
+					<input type="text" class="inputStyle crusrCode"/>
+					<span class="p-red"> *</span>
+				</div>
+			</li>
+			<li class="list-li">
+				<label class="leftLi">手机号码：</label>
+				<div class="rightLi">
+					<input type="text" class="inputStyle crusrMobile"/>
+					<span class="p-red"> *</span>
+				</div>
+			</li>
+			<li class="list-li">
+				<label class="leftLi">状态:</label>
+				<div class="rightLi">
+					<select class="inputStyle crusrStatus">
+						 <option value ="0" >禁用</option>
+						 <option value ="1" selected = "selected" >启用</option>
+	                </select>
+					<span class="p-red"> *</span>
+				</div>
+			</li>
+			<!-- <li class="list-li">
+				<label class="leftLi">生日：</label>
+				<div class="rightLi">
+					<input type="text" class="inputStyle crusrBirthday"/>
+				</div>
+			</li> -->
+			<li class="list-li">
+				<label class="leftLi">性别:</label>
+				<div class="rightLi">
+					<select class="inputStyle crusrGender">
+						 <option value ="0" >女</option>
+						 <option value ="1" selected = "selected" >男</option>
+	                </select>
+					<span class="p-red"> *</span>
+				</div>
+			</li>
+			<!-- <li class="list-li">
+				<label class="leftLi">QQ：</label>
+				<div class="rightLi">
+					<input type="text" class="inputStyle crusrQq"/>
+				</div>
+			</li> -->
+			<!-- <li class="list-li">
+				<label class="leftLi">地址：</label>
+				<div class="rightLi">
+					<input type="text" class="inputStyle crusrAddress"/>
+				</div>
+			</li> -->
+			<li class="list-li">
+				<label class="leftLi">所属班级：</label>
+				<div class="rightLi">
+	                <select class="inputStyle crusrGrade"></select>
+					<span class="p-red"> *</span>
+				</div>
+			</li>
+			<!-- <li class="list-li">
+				<label class="leftLi">：</label>
+				<div class="rightLi">
+					<input type="text" class="inputStyle crusrClasss"/>
+					<span class="p-red"> *</span>
+				</div>
+			</li> -->
+			<li class="list-li">
+				<label class="leftLi">就读学校：</label>
+				<div class="rightLi">
+					<input type="text" class="inputStyle crusrSchool"/>
+				</div>
+			</li>
+			<li class="list-li">
+				<label class="leftLi">在读年级：</label>
+				<div class="rightLi">
+					<select class="inputStyle crusrReadClass">
+					    <option value ="1" >一年级</option>
+					    <option value ="2" >二年级</option>
+					    <option value ="3" >三年级</option>
+					    <option value ="4" >四年级</option>
+					    <option value ="5" >五年级</option>
+					    <option value ="6" >六年级</option>
+					    <option value ="7" >其他</option>
+	                </select>
+					<span class="p-red"> *</span>
+				</div>
+			</li>
+			<li class="list-li">
+				<label class="leftLi">备注：</label>
+				<div class="rightLi">
+					<input type="text" class="inputStyle crusrRemarks"/>
+				</div>
+			</li>
+			<li class="list-li">
+				<input type="button" class="buttonStyle submit" value="添加"/>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>

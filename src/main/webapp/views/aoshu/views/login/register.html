@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="format-detection" content="email=no" />
+		<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width;" />
+		<title>注册</title>
+
+		<link rel="stylesheet" type="text/css" href="../../css/tool/comm.css" />
+		<link rel="stylesheet" type="text/css" href="../../css/login/register.css" />
+		
+
+		<script type="text/javascript" src="../../plugins/zepto.js"></script>
+  		<script type="text/javascript" src="../../js/tool/common.js"></script>
+  		<script type="text/javascript" src="../../js/tool/md5.js"></script>
+		<script type="text/javascript" src="../../js/login/register.js"></script>
+
+	</head>
+	<body>
+		<div class="register_title"></div>
+		<div class="register_bg div_center">
+			<div class="register_border">
+				<div class="register_close btn" onclick="backPage()"></div>
+				<div class="register_item" style="margin-top: 150px;">
+					<div class="register_name"></div>
+					<input id="register_name" type="text" class="register_input" />
+				</div>
+				<div class="span_note">皇冠通行证为您的联系方式，便于我们联系！一经注册不能修改！</div>
+				<div class="register_item" style="margin-top: 12px;">
+					<div class="register_password"></div>
+					<input id="register_password" type="password" class="register_input" />
+				</div>
+				<div class="span_note">长度为6-16个字符，由英文字母、数字构成</div>
+				<div class="register_sure" onclick="register_sure()"></div>
+			</div>
+		</div>
+	</body>
+	
+</html>

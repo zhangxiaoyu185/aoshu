@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>修改题库表</title>
+<link type="text/css" rel="stylesheet" href="../css/common/base-min.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../css/common/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="css/jquery.bigcolorpicker.css" media="all" />
+<script type="text/javascript" src="../js/jquery/jquery-1.8.3.min.js?ts=new Date()"></script>
+<script type="text/javascript" src="../ckeditor/ckeditor.js?ts=new Date()"></script>
+<script type="text/javascript" src="../ckfinder/ckfinder.js?ts=new Date()"></script>
+<script type="text/javascript" src="../../js/jquery.js?ts=new Date()"></script>
+<script type="text/javascript" src="../../js/jquery-form.js?ts=new Date()"></script>
+<script type="text/javascript" src="../../js/jquery.bigcolorpicker.min.js"></script>
+<script type="text/javascript" src="../js/layer/layer.js?ts=new Date()"></script>
+<script type="text/javascript" src="../js/common/common.js?ts=new Date()"></script>
+<script type="text/javascript" src="../js/question/corequestions_modify.js?ts=new Date()"></script>
+</head>
+
+<body>
+	<div class="box">
+		<ul class="list">
+			<li class="list-li">
+				<label class="leftLi" style="width:50px;">题目编号：</label>
+				<div class="rightLi" style="width:150px;">
+					<input type="text" class="inputStyle crqtsCode" style="width:120px;" disabled="disabled" />
+					<span class="p-red"> *</span>
+				</div>
+				<label class="leftLi" style="width:50px;">图片目录：</label>
+				<div class="rightLi" style="width:150px;">
+					<select class="inputStyle crqtsDir" style="width:120px;"></select>
+					<span class="p-red"> *</span>
+				</div>
+				<label class="leftLi" style="width:50px;">难易：</label>
+				<div class="rightLi" style="width:150px;">
+	           		<select class="inputStyle crqtsLevel" style="width:120px;"></select>
+	            	<span class="p-red"> *</span>
+	            </div>
+			</li>
+			<li class="list-li">
+				<label class="leftLi" style="width:50px;">类别：</label>
+				<div class="rightLi" style="width:150px;">
+					<select class="inputStyle crqtsCategory" style="width:120px;" onchange="changCategory(this)"></select>
+					<span class="p-red"> *</span>
+				</div>
+				<label class="leftLi" style="width:50px;">知识点：</label>
+				<div class="rightLi" style="width:150px;">
+					<select class="inputStyle crqtsKnowledge" style="width:120px;"></select>
+					<span class="p-red"> *</span>
+				</div>
+				<label class="leftLi" style="width:50px;">年级：</label>
+				<div class="rightLi" style="width:150px;">
+					<select class="inputStyle crqtsClass" style="width:120px;"></select>
+					<span class="p-red"> *</span>
+				</div>
+			</li>			
+			<li class="list-li">
+				<label class="leftLi" style="width:50px;">题目类型：</label>
+				<div class="rightLi" style="width:150px;">
+					<select class="inputStyle crqtsQuesType" style="width:120px;" onchange="changQuesType(this)"/>
+						<option value ="0">文字</option>
+						<option value ="1" selected="true">图片</option>
+					</select>
+					<span class="p-red"> *</span>
+				</div>
+				<label class="leftLi" style="width:50px;">解析类型：</label>
+				<div class="rightLi" style="width:150px;">
+					<select class="inputStyle crqtsAnalysisType" style="width:120px;" onchange="changAnalysisType(this)"/>
+						<option value ="0">文字</option>
+						<option value ="1" selected="true">图片</option>
+					</select>
+					<span class="p-red"> *</span>
+				</div>
+				<label class="leftLi" style="width:50px;">背景色：</label>
+				<div class="rightLi" style="width:150px;">
+					<input type="text" id="crqtsColor" class="inputStyle crqtsColor" style="width:120px;"/>
+				</div>
+			</li>
+			<li class="list-li wenzi1">
+				<label class="leftLi">题目文字：</label>
+				<div class="rightLi">
+					<textarea class="textareaStyle crqtsQuesFont" rows="3" cols="70"></textarea>
+				</div>
+			</li>
+			<li class="list-li class1">
+				<label class="leftLi">题目图片：</label>
+				<img class="img1" />
+			</li>
+			<li class="list-li wenzi2">
+				<label class="leftLi">解析文字：</label>
+				<div class="rightLi">
+					<textarea class="textareaStyle crqtsAnalysisFont" rows="3" cols="70"></textarea>
+				</div>
+			</li>
+			<li class="list-li class2">
+				<label class="leftLi">解析图片：</label>
+				<img class="img2" />
+			</li>
+			<li class="list-li">
+				<label class="leftLi">问题：</label>
+				<div class="rightLi">
+					<textarea class="textareaStyle crqtsProblem" rows="3" cols="70"></textarea>
+				</div>
+			</li>
+			<li class="list-li">
+				<label class="leftLi">答案：</label>
+				<div class="rightLi">
+					<input type="text" class="inputStyle crqtsAnswer" />
+				</div>
+			</li>
+			<li class="list-li">		
+				<label class="leftLi" style="width:50px;">视频路径：</label>
+				<div class="rightLi" style="width:250px;">
+					<select class="inputStyle crqtsMovie" style="width:210px;"></select>
+				</div>
+				<label class="leftLi" style="width:50px;">视频目录：</label>
+				<div class="rightLi" style="width:250px;">
+					<select class="inputStyle crqtsDirMovie" style="width:210px;"></select>
+				</div>				
+			</li>
+			<input type="hidden" class="crqtsQuesUrl"/>
+			<input type="hidden" class="crqtsRemarks"/>
+			<input type="hidden" class="crqtsAnalysisUrl"/>
+			<li class="list-li">
+				<input type="button" class="buttonStyle submit" value="修改"/>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>

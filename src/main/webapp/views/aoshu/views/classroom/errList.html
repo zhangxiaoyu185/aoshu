@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="format-detection" content="email=no" />
+		<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width;" />
+		<title>错题集</title>
+
+		<link rel="stylesheet" type="text/css" href="../../css/tool/comm.css" />
+		<link rel="stylesheet" type="text/css" href="../../css/classroom/errList.css" />
+		
+		<script type="text/javascript" src="../../plugins/zepto.js"></script>
+  		<script type="text/javascript" src="../../js/tool/common.js"></script>
+  		<script type="text/javascript" src="../../js/classroom/errList.js"></script>
+  		
+  		<link rel="stylesheet" type="text/css" href="../../plugins/layer_phone/need/layer.css" />
+  		<script type="text/javascript" src="../../plugins/layer_phone/layer.js"></script>
+	</head>
+	<body>
+		<div class="errList_back btn" onclick="backPageErrList()"></div>
+
+		<div class="errList_bg">
+			<div class="errList_border">
+				<div class="errList_content_list">
+					<div class="errList_th"></div>
+					<div id="errList_content_content" class="errList_content_content">
+						<!-- <div class="errList_item_type1">
+							<div id="errList_no" class="errList_no">1</div>
+							<div class="errList_item_issue_bg">
+								<div id="div_first" class="div_first">打算开了解放军大厦路口</div>
+								<div id="div_second" class="div_second">第03将</div>
+							</div>
+							<div id="item_tim" class="errList_item_time_bg">2016/5/22 17:20:20</div>
+						</div> -->
+					</div>
+
+					<div id="upPageBtn" class="errList_page_dis" onclick="errList_upPage_btn()">上一页</div>
+					<div id="nextPageBtn" class="errList_page_en" onclick="errList_nextPage_btn()">下一页</div>
+				</div>
+				<div class="errList_content_flag">
+					<div class="errList_title"></div>
+					<div class="errList_page">
+						<div id="errList_page_rate" class="errList_page_rate"></div>
+					</div>
+					<!-- <div class="errList_correct_btn errList_nocorrect btn" onclick="radio(this,'errList_nocorrect','errList_corrected')">已订正</div>
+					<div class="errList_correct_btn errList_corrected btn" onclick="radio(this,'errList_nocorrect','errList_corrected')">未订正</div> -->
+					<div id="errDui" class="errList_correct_btn btn" onclick="errListCorrectSelect(this, 0)">已订正</div>
+					<div id="errCuo" class="errList_correct_btn btn" onclick="errListCorrectSelect(this, 1)">未订正</div>
+				</div>
+
+			</div>
+
+			
+		</div>
+		
+
+		
+	</body>
+</html>

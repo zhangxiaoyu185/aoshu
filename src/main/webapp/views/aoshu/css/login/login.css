@@ -1,0 +1,106 @@
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	height: 100%;
+}
+
+.login_bg {
+	width: 100%;
+	height: 100%;
+	background: url("../../images/login/register_bg.png") no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+
+.login_border {
+	width: 582px;
+	height: 481px;
+	background: url("../../images/login/login_border.png") no-repeat;
+}
+
+.login_item {
+	width: 100%;
+	height: 46px;
+	line-height: 46px;
+}
+
+.login_name {
+	width: 65px;
+	height: 40px;
+	background: url("../../images/login/login_name.png") no-repeat;
+	float: left;
+	margin-left: 90px;
+	margin-top: 2px;
+}
+
+.login_password {
+	width: 65px;
+	height: 40px;
+	background: url("../../images/login/login_password.png") no-repeat;
+	float: left;
+	margin-left: 90px;
+	margin-top: 2px;
+}
+
+.go_login {
+	width: 55px;
+	height: 36px;
+	background: url("../../images/login/go_login.png") no-repeat;
+	float: left;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+.login_input {
+	width: 250px;
+	height: 46px;
+	line-height: 46px;
+	border-radius: 23px;
+	border: solid 1px #6d4a00;
+	background-color: #f6d66f;
+	font-size: 24px;
+	margin-left: 47px;
+	float: left;
+}
+
+.login_sure {
+	width: 149px;
+	height: 150px;
+	background: url("../../images/login/login_sure.png") no-repeat;
+	float: right;
+	margin-right: 76px;
+}
+
+.login_nocheck {
+	width: 75px;
+	height: 26px;
+	background: url("../../images/login/login_nocheck.png") no-repeat;
+	margin-top: 325px;
+	margin-left: 202px;
+	line-height: 26px;
+	padding-left: 30px;
+	color: #735611;
+}
+
+.login_checked {
+	width: 75px;
+	height: 26px;
+	background: url("../../images/login/login_checked.png") no-repeat;
+	margin-top: 325px;
+	margin-left: 202px;
+	line-height: 26px;
+	padding-left: 30px;
+	color: #735611;
+}
+
+.login_title {
+	width: 231px;
+	height: 304px;
+	background: url("../../images/login/login_title.png") no-repeat;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+}

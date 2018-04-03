@@ -1,0 +1,213 @@
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	height: 100%;
+}
+
+.errList_back {
+	width: 74px;
+	height: 74px;
+	background: url("../../images/classroom/lecture_back.png") no-repeat;
+	position: fixed;
+	right: 20px;
+	top: 20px;
+	z-index: 999;
+}
+
+.errList_bg {
+	width: 100%;
+	height: 100%;
+	background: url("../../images/classroom/errList_bg.png") no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+
+.errList_border {
+	width: 1020px;
+	margin: 0px auto;
+	top: 5px;
+	position: relative;
+	height: 690px;
+}
+
+.errList_content_list {
+	width: 682px;
+	height: 680px;
+	/*border: solid 1px #000;*/
+	float: left;
+}
+
+.errList_th {
+	width: 664px;
+	height: 62px;
+	background: url("../../images/classroom/errList_th.png") no-repeat;
+	margin: 0px auto;
+}
+
+.errList_content_content {
+	width: 680px;
+	height: 567px;
+	border: solid 2px #fff;
+	margin-top: -8px;
+	background-color: #816e58;
+}
+
+.errList_content_flag {
+	width: 338px;
+	height: 630;
+	/* border: solid 1px #000; */
+	float: left;
+	margin-top: 50px;
+}
+
+.errList_title {
+	width: 278px;
+	height: 102px;
+	background: url("../../images/classroom/errList_title.png") no-repeat;
+	margin: 100px auto 0px auto;
+}
+
+.errList_page {
+	width: 334px;
+	height: 176px;
+	background: url("../../images/classroom/errList_page.png") no-repeat;
+}
+
+.errList_page_rate {
+	width: 161px;
+	height: 35px;
+	top: 80px;
+	left: 96px;
+	position: relative;
+	line-height: 35px;
+	font-size: 20px;
+	text-align: center;
+	font-family: "楷体","楷体_GB2312";
+	font-weight: bold;
+}
+
+.errList_correct_btn {
+	width: 160px;
+	height: 72px;
+	background: url("../../images/classroom/errList_correct_btn.png") no-repeat;
+	font-family: "楷体","楷体_GB2312";
+	font-weight: bold;
+	line-height: 72px;
+	font-size: 25px;
+	text-align: center;
+	margin: 20px auto;
+}
+
+.errList_corrected {
+	/*width: 163px;
+	height: 67px;
+	background: url("../../images/classroom/errList_corrected.png") no-repeat;
+	margin: 20px auto;*/
+	color: #2ee897;
+}
+
+.errList_nocorrect {
+	/*width: 163px;
+	height: 67px;
+	background: url("../../images/classroom/errList_nocorrect.png") no-repeat;
+	margin: 20px auto;*/
+	color: #fff;
+}
+
+ .errList_item_type1 {
+	width: 681px;
+	height: 71px;
+	background: url("../../images/classroom/errList_item_type1.png") no-repeat;
+	font-family: "楷体","楷体_GB2312";
+}
+
+ .errList_item_type2 {
+	width: 681px;
+	height: 71px;
+	background: url("../../images/classroom/errList_item_type2.png") no-repeat;
+	font-family: "楷体","楷体_GB2312";
+}
+
+.errList_no {
+	width: 88px;
+	height: 65px;
+	background: url("../../images/classroom/errList_no.png") no-repeat;
+	float: left;
+	margin-left: 26px;
+	margin-top: 4px;
+	line-height: 65px;
+	text-align: center;
+	color: #000;
+	font-size: 21px;
+	font-weight: bold;
+}
+
+.errList_item_issue_bg {
+	width: 385px;
+	height: 65px;
+	background: url("../../images/classroom/errList_item_issue_bg.png") no-repeat;
+	float: left;
+	margin-top: 4px;
+	margin-left: -10px;
+	line-height: 65px;
+	font-size: 16px;
+}
+
+.errList_item_issue_bg .div_first {
+	width: 265px;
+	height: 41px;
+	margin-top: 12px;
+	margin-left: 6px;
+	color: #fff;
+	line-height: 41px;
+	float: left;
+	padding-left: 7px;
+}
+
+.errList_item_issue_bg .div_second {
+	width: 89px;
+	height: 41px;
+	text-align: center;
+	line-height: 41px;
+	float: left;
+	margin-top: 12px;
+}
+
+.errList_item_time_bg {
+	width: 195px;
+	height: 65px;
+	background: url("../../images/classroom/errList_item_time_bg.png") no-repeat;
+	float: left;
+	margin-top: 4px;
+	margin-left: -17px;
+	line-height: 65px;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+}
+
+.errList_page_dis {
+	width: 153px;
+	height: 72px;
+	background: url("../../images/classroom/errList_upPage_btn.png") no-repeat;
+	line-height: 72px;
+	text-align: center;
+	color: #352620;
+	font-size: 20px;
+	float: left;
+	margin-left: 110px;
+}
+
+.errList_page_en {
+	width: 153px;
+	height: 72px;
+	background: url("../../images/classroom/errList_nextPage_btn.png") no-repeat;
+	line-height: 72px;
+	text-align: center;
+	font-size: 20px;
+	float: left;
+	margin-left: 110px;
+}

@@ -1,0 +1,318 @@
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	height: 100%;
+}
+
+.home_bg {
+	width: 100%;
+	height: 100%;
+	background: url("../../images/home/home_bg.png") no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+
+.home_border {
+	width: 1024px;
+	height: 633px;
+	background: url("../../images/home/home_border.png") no-repeat;
+}
+
+.home_head {
+	width: 176px;
+	height: 178px;
+	background: url("../../images/home/home_head.png") no-repeat;
+}
+
+.home_decorate {
+	width: 244px;
+	height: 286px;
+	background: url("../../images/home/home_decorate.png") no-repeat;
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+}
+
+.border_left {
+	width: 271px;
+	height: 100%;
+	float: left;
+	margin-left: 56px;
+}
+
+.border_right {
+	width: 618px;
+	height: 100%;
+	float: right;
+	right: 61px;
+	position: relative;
+}
+
+.home_title {
+	width: 569px;
+	height: 77px;
+	background: url("../../images/home/home_title.png") no-repeat;
+	margin: 124px auto 0px auto;
+}
+
+.home_head {
+	width: 176px;
+	height: 178px;
+	background: url("../../images/home/home_head.png") no-repeat;
+	margin-left: 50px;
+	margin: 0px auto;
+	margin-top: 131px;
+}
+
+.span_name {
+	color: #644d33;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.change_info {
+	width: 132px;
+	height: 38px;
+	background: url("../../images/home/change_info.png") no-repeat;
+	margin: 25px auto 0px auto;
+}
+
+.change_password {
+	width: 132px;
+	height: 38px;
+	background: url("../../images/home/change_password.png") no-repeat;
+	margin: 25px auto 0px auto;
+}
+
+.border_left_note {
+	margin-top: 100px;
+	text-align: center;
+}
+
+.border_right_item {
+	width: 160px;
+	height: 160px;
+	float: left;
+	margin-left: 40px;
+	margin-top: 26px;
+}
+
+.border_right_item.first_grade {
+	background: url("../../images/home/first_grade.png") no-repeat;
+}
+.border_right_item.second_grade {
+	background: url("../../images/home/second_grade.png") no-repeat;
+}
+.border_right_item.third_grade {
+	background: url("../../images/home/third_grade.png") no-repeat;
+}
+.border_right_item.fourth_grade {
+	background: url("../../images/home/fourth_grade.png") no-repeat;
+}
+.border_right_item.fifth_grade {
+	background: url("../../images/home/fifth_grade.png") no-repeat;
+}
+.border_right_item.sixth_grade {
+	background: url("../../images/home/sixth_grade.png") no-repeat;
+}
+
+.border_right_item_border {
+	height: 380px;
+	overflow-y: auto;
+}
+
+.border_right_item_bg {
+	width: 160px;
+	height: 40px;
+	float: left;
+	margin-left: 40px;
+	margin-top: 26px;
+	font-family: "楷体","楷体_GB2312";
+	text-align: center;
+	background: url("../../images/home/grade_bg.png") no-repeat;
+	padding-top: 115px;
+	font-size: 23px;
+	font-weight:bold;
+	color: #471d10;
+	text-shadow: 2px 2px  #fff;
+}
+
+.changePasswrd_bg {
+	width: 632px;
+	height: 419px;
+	background: url("../../images/home/changePasswrd_bg.png") no-repeat;
+}
+
+.changePasswrd_item {
+	width: 453px;
+	height: 40px;
+	margin: 15px auto 0px auto;
+	position: relative;
+}
+
+.changePasswrd_item .flag {
+	width: 145px;
+	height: 40px;
+	color: #1eb1e1;
+	line-height: 40px;
+	float: left;
+	font-size: 22px;
+}
+
+.changePasswrd_item .changePasswrd_input {
+	width: 300px;
+	height: 36px;
+	border-radius: 18px;
+	border: dashed 2px #bad158;
+	float: left;
+	font-size: 22px;
+}
+
+.changePasswrd_sure {
+	width: 121px;
+	height: 51px;
+	background: url("../../images/home/changePasswrd_sure.png") no-repeat;
+	float: left;
+	margin-left: 150px;
+	margin-top: 170px;
+}
+
+.changePasswrd_exit {
+	width: 121px;
+	height: 51px;
+	background: url("../../images/home/changePasswrd_exit.png") no-repeat;
+	float: right;
+	margin-right: 150px;
+	margin-top: 170px;
+}
+
+.changePasswrd_sure:active {
+	background: url("../../images/home/changePasswrd_sure_active.png") no-repeat;
+}
+
+.changePasswrd_exit:active {
+	background: url("../../images/home/changePasswrd_exit_active.png") no-repeat;
+}
+
+.changeInfo_bg {
+	width: 748px;
+	height: 540px;
+	background: url("../../images/home/changeInfo_bg.png") no-repeat;
+}
+
+.changeInfo_item {
+	width: 627px;
+	height: 40px;
+	margin: 15px auto 0px auto;
+	position: relative;
+	border-bottom: dashed 2px #bad158;
+}
+
+
+
+.changeInfo_item .flag {
+	width: 145px;
+	height: 40px;
+	color: #1eb1e1;
+	line-height: 40px;
+	float: left;
+	font-size: 22px;
+}
+
+.changeInfo_item .changeInfo_input {
+	width: 300px;
+	height: 27px;
+	border-radius: 18px;
+	border: dashed 2px #bad158;
+	float: left;
+	font-size: 20px;
+	color: #990000;
+	padding: 0px 10px 0px 10px;
+}
+
+.changeInfo_nocheck {
+	width: 100px;
+	height: 30px;
+	background: url("../../images/home/changeInfo_nocheck.png") no-repeat;
+	padding-left: 45px;
+	color: #1eb1e1;
+	float: left;
+	line-height: 30px;
+	font-size: 20px;
+	margin-top: 6px;
+}
+
+.changeInfo_checked {
+	width: 100px;
+	height: 30px;
+	background: url("../../images/home/changeInfo_checked.png") no-repeat;
+	line-height: 30px;
+	padding-left: 45px;
+	color: #1eb1e1;
+	float: left;
+	font-size: 20px;
+	margin-top: 6px;
+}
+
+.changeInfo_nocheck_sex {
+	width: 100px;
+	height: 30px;
+	background: url("../../images/home/changeInfo_nocheck.png") no-repeat;
+	padding-left: 45px;
+	color: #1eb1e1;
+	float: left;
+	line-height: 30px;
+	font-size: 20px;
+	margin-top: 6px;
+}
+
+.changeInfo_checked_sex {
+	width: 100px;
+	height: 30px;
+	background: url("../../images/home/changeInfo_checked.png") no-repeat;
+	line-height: 30px;
+	padding-left: 45px;
+	color: #1eb1e1;
+	float: left;
+	font-size: 20px;
+	margin-top: 6px;
+}
+
+
+.changeInfo_sure {
+	width: 121px;
+	height: 51px;
+	background: url("../../images/home/changeInfo_sure.png") no-repeat;
+	float: left;
+	margin-left: 150px;
+	margin-top: 140px;
+}
+
+.changeInfo_exit {
+	width: 121px;
+	height: 51px;
+	background: url("../../images/home/changeInfo_exit.png") no-repeat;
+	float: right;
+	margin-right: 150px;
+	margin-top: 140px;
+}
+
+.changeInfo_sure:active {
+	background: url("../../images/home/changeInfo_sure_active.png") no-repeat;
+}
+
+.changeInfo_exit:active {
+	background: url("../../images/home/changeInfo_exit_active.png") no-repeat;
+}
+
+.homePage_back {
+	width: 71px;
+	height: 68px;
+	background: url("../../images/home/homePage_back.png") no-repeat;
+	float: right;
+	margin-top: 117px;
+	margin-right: -14px;
+}

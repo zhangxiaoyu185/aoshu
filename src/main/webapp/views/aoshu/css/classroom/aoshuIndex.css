@@ -1,0 +1,136 @@
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	background: #ccd193;
+}
+
+.aoshuIndex_back {
+	width: 74px;
+	height: 74px;
+	background: url("../../images/classroom/lecture_back.png") no-repeat;
+	position: fixed;
+	right: 20px;
+	top: 20px;
+}
+
+.aoshuIndex_bg {
+	width: 1024px;
+	height: 768px;
+	background: url("../../images/classroom/aoshuIndex_bg.png") no-repeat;
+	margin: 0px auto;
+}
+
+.div_title {
+	width: 400px;
+	height: 70px;
+	margin: 0px auto 0px auto;
+	position: relative;
+	top: 53px;
+	font-size: 40px;
+	font-family: "楷体","楷体_GB2312";
+	font-weight: bold;
+	color: #eaee8b;
+	line-height: 70px;
+	text-align: center;
+}
+
+.div_page {
+	width: 148px;
+	font-size: 34px;
+	font-family: "楷体","楷体_GB2312";
+	font-weight: bold;
+	margin-top: 83px;
+	margin-left: 427px;
+	text-align: center;
+}
+
+.aoshuIndex_up_page {
+	width: 83px;
+	height: 85px;
+	background: url("../../images/classroom/aoshuIndex_up_page.png") no-repeat;
+	margin-top: -327px;
+	margin-left: 2px;
+}
+
+.aoshuIndex_next_page {
+	width: 83px;
+	height: 85px;
+	background: url("../../images/classroom/aoshuIndex_next_page.png") no-repeat;
+	float: right;
+	margin-top: -85px;
+	margin-right: 6px;
+}
+
+.aoshuIndex_content {
+	width: 890px;
+	height: 540px;
+	margin-left: 66px;
+}
+
+.aoshuIndex_item {
+	width: 238px;
+	height: 250px;
+	background: url("../../images/classroom/aoshuIndex_item.png") no-repeat;
+	float: left;
+	margin-left: 48px;
+	margin-top: 10px;
+}
+
+.aoshuIndex_flag {
+	width: 72px;
+	height: 67px;
+	background: url("../../images/classroom/aoshuIndex_flag.png") no-repeat;
+	text-align: center;
+	line-height: 67px;
+	color: #f2bd07;
+	float: right;
+}
+
+.aoshuIndex_item_title {
+	height: 57px;
+	color: #fff;
+	font-size: 22px;
+	margin-top: 18px;
+	padding-left: 18px;
+	line-height: 59px;
+}
+
+.aoshuIndex_item_content {
+	font-family: "楷体","楷体_GB2312";
+	font-weight: bold;
+	height: 95px;
+	text-align: center;
+	font-size: 25px;
+	width: 200px;
+	margin: 0px auto;
+}
+
+.aoshuIndex_item_bottom {
+	height: 60px;
+	margin-top: 8px;
+}
+
+.aoshuIndex_jindian {
+	width: 114px;
+	height: 58px;
+	background: url("../../images/classroom/aoshuIndex_jindian.png") no-repeat 14px 10px;
+	float: left;
+}
+
+.aoshuIndex_qinghua_en {
+	width: 114px;
+	height: 58px;
+	background: url("../../images/classroom/aoshuIndex_qinghua_en.png") no-repeat 14px 10px;
+	float: left;
+}
+
+.aoshuIndex_qinghua_dis {
+	width: 114px;
+	height: 58px;
+	background: url("../../images/classroom/aoshuIndex_qinghua_dis.png") no-repeat 14px 10px;
+	float: left;
+}
